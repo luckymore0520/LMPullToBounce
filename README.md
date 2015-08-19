@@ -1,10 +1,6 @@
 # LMPullToBounce
 
-The Objective-C version of [PullToBounce](https://github.com/entotsu/PullToBounce). Supports iOS 7.0+.
-
-## Installation
-The simplest option is to use `pod "LMPullToBounce"`.
-You can also add the `LMPullToBounce` folder to your project. 
+The Objective-C version of [PullToBounce](https://github.com/entotsu/PullToBounce). Supports iOS 7.0+. 
 
 ## Usage
 See PullToBounce [Usage Part](https://github.com/entotsu/PullToBounce#usage).

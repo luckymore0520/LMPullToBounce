@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>WKPullToBounce.xcscheme</key>
+		<key>LMPullToBounceDemo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>7D0E4E121B837F1200664191</key>
+		<key>7DF17C061B84B54D00DD3F33</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7D0E4E2B1B837F1200664191</key>
+		<key>7DF17C1F1B84B54D00DD3F33</key>
 		<dict>
 			<key>primary</key>
 			<true/>

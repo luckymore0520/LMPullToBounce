@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7D0E4E121B837F1200664191"
-               BuildableName = "WKPullToBounce.app"
-               BlueprintName = "WKPullToBounce"
-               ReferencedContainer = "container:LMPullToBounce.xcodeproj">
+               BlueprintIdentifier = "7DF17C061B84B54D00DD3F33"
+               BuildableName = "LMPullToBounceDemo.app"
+               BlueprintName = "LMPullToBounceDemo"
+               ReferencedContainer = "container:LMPullToBounceDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -28,10 +28,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7D0E4E2B1B837F1200664191"
-               BuildableName = "WKPullToBounceTests.xctest"
-               BlueprintName = "WKPullToBounceTests"
-               ReferencedContainer = "container:LMPullToBounce.xcodeproj">
+               BlueprintIdentifier = "7DF17C1F1B84B54D00DD3F33"
+               BuildableName = "LMPullToBounceDemoTests.xctest"
+               BlueprintName = "LMPullToBounceDemoTests"
+               ReferencedContainer = "container:LMPullToBounceDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,20 +46,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7D0E4E2B1B837F1200664191"
-               BuildableName = "WKPullToBounceTests.xctest"
-               BlueprintName = "WKPullToBounceTests"
-               ReferencedContainer = "container:LMPullToBounce.xcodeproj">
+               BlueprintIdentifier = "7DF17C1F1B84B54D00DD3F33"
+               BuildableName = "LMPullToBounceDemoTests.xctest"
+               BlueprintName = "LMPullToBounceDemoTests"
+               ReferencedContainer = "container:LMPullToBounceDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7D0E4E121B837F1200664191"
-            BuildableName = "WKPullToBounce.app"
-            BlueprintName = "WKPullToBounce"
-            ReferencedContainer = "container:LMPullToBounce.xcodeproj">
+            BlueprintIdentifier = "7DF17C061B84B54D00DD3F33"
+            BuildableName = "LMPullToBounceDemo.app"
+            BlueprintName = "LMPullToBounceDemo"
+            ReferencedContainer = "container:LMPullToBounceDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -76,10 +76,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7D0E4E121B837F1200664191"
-            BuildableName = "WKPullToBounce.app"
-            BlueprintName = "WKPullToBounce"
-            ReferencedContainer = "container:LMPullToBounce.xcodeproj">
+            BlueprintIdentifier = "7DF17C061B84B54D00DD3F33"
+            BuildableName = "LMPullToBounceDemo.app"
+            BlueprintName = "LMPullToBounceDemo"
+            ReferencedContainer = "container:LMPullToBounceDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,10 +95,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7D0E4E121B837F1200664191"
-            BuildableName = "WKPullToBounce.app"
-            BlueprintName = "WKPullToBounce"
-            ReferencedContainer = "container:LMPullToBounce.xcodeproj">
+            BlueprintIdentifier = "7DF17C061B84B54D00DD3F33"
+            BuildableName = "LMPullToBounceDemo.app"
+            BlueprintName = "LMPullToBounceDemo"
+            ReferencedContainer = "container:LMPullToBounceDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DF17C0D1B84B54D00DD3F33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF17C0C1B84B54D00DD3F33 /* main.m */; };
+		7DF17C101B84B54D00DD3F33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF17C0F1B84B54D00DD3F33 /* AppDelegate.m */; };
+		7DF17C131B84B54D00DD3F33 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF17C121B84B54D00DD3F33 /* ViewController.m */; };
+		7DF17C161B84B54D00DD3F33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DF17C141B84B54D00DD3F33 /* Main.storyboard */; };
+		7DF17C181B84B54D00DD3F33 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DF17C171B84B54D00DD3F33 /* Images.xcassets */; };
+		7DF17C1B1B84B54D00DD3F33 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DF17C191B84B54D00DD3F33 /* LaunchScreen.xib */; };
+		7DF17C271B84B54D00DD3F33 /* LMPullToBounceDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF17C261B84B54D00DD3F33 /* LMPullToBounceDemoTests.m */; };
+		7DF17C571B84B5DD00DD3F33 /* BallView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF17C491B84B5DD00DD3F33 /* BallView.m */; };
+		7DF17C581B84B5DD00DD3F33 /* BounceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF17C4B1B84B5DD00DD3F33 /* BounceView.m */; };
+		7DF17C591B84B5DD00DD3F33 /* NSTimer+PullToBounce.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF17C4E1B84B5DD00DD3F33 /* NSTimer+PullToBounce.m */; };
+		7DF17C5A1B84B5DD00DD3F33 /* UIView+PullToBounce.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF17C501B84B5DD00DD3F33 /* UIView+PullToBounce.m */; };
+		7DF17C5B1B84B5DD00DD3F33 /* LMPullToBounceWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF17C521B84B5DD00DD3F33 /* LMPullToBounceWrapper.m */; };
+		7DF17C5C1B84B5DD00DD3F33 /* SampleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF17C541B84B5DD00DD3F33 /* SampleTableViewCell.m */; };
+		7DF17C5D1B84B5DD00DD3F33 /* WaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF17C561B84B5DD00DD3F33 /* WaveView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7DF17C211B84B54D00DD3F33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7DF17BFF1B84B54D00DD3F33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7DF17C061B84B54D00DD3F33;
+			remoteInfo = LMPullToBounceDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7DF17C071B84B54D00DD3F33 /* LMPullToBounceDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LMPullToBounceDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DF17C0B1B84B54D00DD3F33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DF17C0C1B84B54D00DD3F33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7DF17C0E1B84B54D00DD3F33 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7DF17C0F1B84B54D00DD3F33 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7DF17C111B84B54D00DD3F33 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7DF17C121B84B54D00DD3F33 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7DF17C151B84B54D00DD3F33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7DF17C171B84B54D00DD3F33 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7DF17C1A1B84B54D00DD3F33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7DF17C201B84B54D00DD3F33 /* LMPullToBounceDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LMPullToBounceDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DF17C251B84B54D00DD3F33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DF17C261B84B54D00DD3F33 /* LMPullToBounceDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LMPullToBounceDemoTests.m; sourceTree = "<group>"; };
+		7DF17C481B84B5DD00DD3F33 /* BallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallView.h; sourceTree = "<group>"; };
+		7DF17C491B84B5DD00DD3F33 /* BallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallView.m; sourceTree = "<group>"; };
+		7DF17C4A1B84B5DD00DD3F33 /* BounceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BounceView.h; sourceTree = "<group>"; };
+		7DF17C4B1B84B5DD00DD3F33 /* BounceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BounceView.m; sourceTree = "<group>"; };
+		7DF17C4D1B84B5DD00DD3F33 /* NSTimer+PullToBounce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+PullToBounce.h"; sourceTree = "<group>"; };
+		7DF17C4E1B84B5DD00DD3F33 /* NSTimer+PullToBounce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+PullToBounce.m"; sourceTree = "<group>"; };
+		7DF17C4F1B84B5DD00DD3F33 /* UIView+PullToBounce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PullToBounce.h"; sourceTree = "<group>"; };
+		7DF17C501B84B5DD00DD3F33 /* UIView+PullToBounce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PullToBounce.m"; sourceTree = "<group>"; };
+		7DF17C511B84B5DD00DD3F33 /* LMPullToBounceWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMPullToBounceWrapper.h; sourceTree = "<group>"; };
+		7DF17C521B84B5DD00DD3F33 /* LMPullToBounceWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMPullToBounceWrapper.m; sourceTree = "<group>"; };
+		7DF17C531B84B5DD00DD3F33 /* SampleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleTableViewCell.h; sourceTree = "<group>"; };
+		7DF17C541B84B5DD00DD3F33 /* SampleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleTableViewCell.m; sourceTree = "<group>"; };
+		7DF17C551B84B5DD00DD3F33 /* WaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveView.h; sourceTree = "<group>"; };
+		7DF17C561B84B5DD00DD3F33 /* WaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DF17C041B84B54D00DD3F33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DF17C1D1B84B54D00DD3F33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DF17BFE1B84B54D00DD3F33 = {
+			isa = PBXGroup;
+			children = (
+				7DF17C091B84B54D00DD3F33 /* LMPullToBounceDemo */,
+				7DF17C231B84B54D00DD3F33 /* LMPullToBounceDemoTests */,
+				7DF17C081B84B54D00DD3F33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DF17C081B84B54D00DD3F33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DF17C071B84B54D00DD3F33 /* LMPullToBounceDemo.app */,
+				7DF17C201B84B54D00DD3F33 /* LMPullToBounceDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DF17C091B84B54D00DD3F33 /* LMPullToBounceDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7DF17C471B84B5DD00DD3F33 /* LMPullToBounce */,
+				7DF17C0E1B84B54D00DD3F33 /* AppDelegate.h */,
+				7DF17C0F1B84B54D00DD3F33 /* AppDelegate.m */,
+				7DF17C111B84B54D00DD3F33 /* ViewController.h */,
+				7DF17C121B84B54D00DD3F33 /* ViewController.m */,
+				7DF17C141B84B54D00DD3F33 /* Main.storyboard */,
+				7DF17C171B84B54D00DD3F33 /* Images.xcassets */,
+				7DF17C191B84B54D00DD3F33 /* LaunchScreen.xib */,
+				7DF17C0A1B84B54D00DD3F33 /* Supporting Files */,
+			);
+			path = LMPullToBounceDemo;
+			sourceTree = "<group>";
+		};
+		7DF17C0A1B84B54D00DD3F33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DF17C0B1B84B54D00DD3F33 /* Info.plist */,
+				7DF17C0C1B84B54D00DD3F33 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7DF17C231B84B54D00DD3F33 /* LMPullToBounceDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				7DF17C261B84B54D00DD3F33 /* LMPullToBounceDemoTests.m */,
+				7DF17C241B84B54D00DD3F33 /* Supporting Files */,
+			);
+			path = LMPullToBounceDemoTests;
+			sourceTree = "<group>";
+		};
+		7DF17C241B84B54D00DD3F33 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DF17C251B84B54D00DD3F33 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7DF17C471B84B5DD00DD3F33 /* LMPullToBounce */ = {
+			isa = PBXGroup;
+			children = (
+				7DF17C481B84B5DD00DD3F33 /* BallView.h */,
+				7DF17C491B84B5DD00DD3F33 /* BallView.m */,
+				7DF17C4A1B84B5DD00DD3F33 /* BounceView.h */,
+				7DF17C4B1B84B5DD00DD3F33 /* BounceView.m */,
+				7DF17C4C1B84B5DD00DD3F33 /* Category */,
+				7DF17C511B84B5DD00DD3F33 /* LMPullToBounceWrapper.h */,
+				7DF17C521B84B5DD00DD3F33 /* LMPullToBounceWrapper.m */,
+				7DF17C531B84B5DD00DD3F33 /* SampleTableViewCell.h */,
+				7DF17C541B84B5DD00DD3F33 /* SampleTableViewCell.m */,
+				7DF17C551B84B5DD00DD3F33 /* WaveView.h */,
+				7DF17C561B84B5DD00DD3F33 /* WaveView.m */,
+			);
+			path = LMPullToBounce;
+			sourceTree = SOURCE_ROOT;
+		};
+		7DF17C4C1B84B5DD00DD3F33 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				7DF17C4D1B84B5DD00DD3F33 /* NSTimer+PullToBounce.h */,
+				7DF17C4E1B84B5DD00DD3F33 /* NSTimer+PullToBounce.m */,
+				7DF17C4F1B84B5DD00DD3F33 /* UIView+PullToBounce.h */,
+				7DF17C501B84B5DD00DD3F33 /* UIView+PullToBounce.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DF17C061B84B54D00DD3F33 /* LMPullToBounceDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DF17C2A1B84B54D00DD3F33 /* Build configuration list for PBXNativeTarget "LMPullToBounceDemo" */;
+			buildPhases = (
+				7DF17C031B84B54D00DD3F33 /* Sources */,
+				7DF17C041B84B54D00DD3F33 /* Frameworks */,
+				7DF17C051B84B54D00DD3F33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LMPullToBounceDemo;
+			productName = LMPullToBounceDemo;
+			productReference = 7DF17C071B84B54D00DD3F33 /* LMPullToBounceDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7DF17C1F1B84B54D00DD3F33 /* LMPullToBounceDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DF17C2D1B84B54D00DD3F33 /* Build configuration list for PBXNativeTarget "LMPullToBounceDemoTests" */;
+			buildPhases = (
+				7DF17C1C1B84B54D00DD3F33 /* Sources */,
+				7DF17C1D1B84B54D00DD3F33 /* Frameworks */,
+				7DF17C1E1B84B54D00DD3F33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DF17C221B84B54D00DD3F33 /* PBXTargetDependency */,
+			);
+			name = LMPullToBounceDemoTests;
+			productName = LMPullToBounceDemoTests;
+			productReference = 7DF17C201B84B54D00DD3F33 /* LMPullToBounceDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DF17BFF1B84B54D00DD3F33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = com.nju.luckymore;
+				TargetAttributes = {
+					7DF17C061B84B54D00DD3F33 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					7DF17C1F1B84B54D00DD3F33 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 7DF17C061B84B54D00DD3F33;
+					};
+				};
+			};
+			buildConfigurationList = 7DF17C021B84B54D00DD3F33 /* Build configuration list for PBXProject "LMPullToBounceDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DF17BFE1B84B54D00DD3F33;
+			productRefGroup = 7DF17C081B84B54D00DD3F33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DF17C061B84B54D00DD3F33 /* LMPullToBounceDemo */,
+				7DF17C1F1B84B54D00DD3F33 /* LMPullToBounceDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DF17C051B84B54D00DD3F33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DF17C161B84B54D00DD3F33 /* Main.storyboard in Resources */,
+				7DF17C1B1B84B54D00DD3F33 /* LaunchScreen.xib in Resources */,
+				7DF17C181B84B54D00DD3F33 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DF17C1E1B84B54D00DD3F33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DF17C031B84B54D00DD3F33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DF17C5B1B84B5DD00DD3F33 /* LMPullToBounceWrapper.m in Sources */,
+				7DF17C5D1B84B5DD00DD3F33 /* WaveView.m in Sources */,
+				7DF17C131B84B54D00DD3F33 /* ViewController.m in Sources */,
+				7DF17C5C1B84B5DD00DD3F33 /* SampleTableViewCell.m in Sources */,
+				7DF17C101B84B54D00DD3F33 /* AppDelegate.m in Sources */,
+				7DF17C5A1B84B5DD00DD3F33 /* UIView+PullToBounce.m in Sources */,
+				7DF17C591B84B5DD00DD3F33 /* NSTimer+PullToBounce.m in Sources */,
+				7DF17C581B84B5DD00DD3F33 /* BounceView.m in Sources */,
+				7DF17C0D1B84B54D00DD3F33 /* main.m in Sources */,
+				7DF17C571B84B5DD00DD3F33 /* BallView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DF17C1C1B84B54D00DD3F33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DF17C271B84B54D00DD3F33 /* LMPullToBounceDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7DF17C221B84B54D00DD3F33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7DF17C061B84B54D00DD3F33 /* LMPullToBounceDemo */;
+			targetProxy = 7DF17C211B84B54D00DD3F33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7DF17C141B84B54D00DD3F33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DF17C151B84B54D00DD3F33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7DF17C191B84B54D00DD3F33 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DF17C1A1B84B54D00DD3F33 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DF17C281B84B54D00DD3F33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7DF17C291B84B54D00DD3F33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DF17C2B1B84B54D00DD3F33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LMPullToBounceDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7DF17C2C1B84B54D00DD3F33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LMPullToBounceDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7DF17C2E1B84B54D00DD3F33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LMPullToBounceDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LMPullToBounceDemo.app/LMPullToBounceDemo";
+			};
+			name = Debug;
+		};
+		7DF17C2F1B84B54D00DD3F33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LMPullToBounceDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LMPullToBounceDemo.app/LMPullToBounceDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DF17C021B84B54D00DD3F33 /* Build configuration list for PBXProject "LMPullToBounceDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DF17C281B84B54D00DD3F33 /* Debug */,
+				7DF17C291B84B54D00DD3F33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DF17C2A1B84B54D00DD3F33 /* Build configuration list for PBXNativeTarget "LMPullToBounceDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DF17C2B1B84B54D00DD3F33 /* Debug */,
+				7DF17C2C1B84B54D00DD3F33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DF17C2D1B84B54D00DD3F33 /* Build configuration list for PBXNativeTarget "LMPullToBounceDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DF17C2E1B84B54D00DD3F33 /* Debug */,
+				7DF17C2F1B84B54D00DD3F33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DF17BFF1B84B54D00DD3F33 /* Project object */;
+}

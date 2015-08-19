@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/luck-mac/Documents/WKPullToBounce/LMPullToBounce.xcodeproj">
+      location = "self:LMPullToBounceDemo.xcodeproj">
    </FileRef>
 </Workspace>

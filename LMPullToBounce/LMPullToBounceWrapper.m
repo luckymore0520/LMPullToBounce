@@ -11,13 +11,11 @@
 #import "UIView+PullToBounce.h"
 
 #define CONTENTOFFSET_KEYPATH @"contentOffset"
-const NSString *KVOContext;
 
 @interface LMPullToBounceWrapper()
 @property (nonatomic, assign)CGFloat pullDist;
 @property (nonatomic, assign)CGFloat bendDist;
 @property (nonatomic, readonly) CGFloat stopPos;
-@property (nonatomic, strong) NSString *KVOContext;
 @property (nonatomic, strong) BounceView *bounceView;
 @property (nonatomic, weak) UIScrollView *scrollView;
 @end
@@ -44,7 +42,6 @@ const NSString *KVOContext;
                    didPullToRefresh:(DidPullToRefresh)didPullToRefresh {
     self = [self initWithFrame:scrollView.frame];
     if (self) {
-        KVOContext = @"KVOContext";
         self.pullDist = pullDistance;
         self.bendDist = bendDistance;
         self.didPullTorefresh = didPullToRefresh;
@@ -62,7 +59,7 @@ const NSString *KVOContext;
         self.scrollView = scrollView;
         scrollView.backgroundColor = [UIColor clearColor];
         [self addSubview:scrollView];
-        [scrollView addObserver:self forKeyPath:CONTENTOFFSET_KEYPATH options:NSKeyValueObservingOptionInitial context:&KVOContext];
+        [scrollView addObserver:self forKeyPath:CONTENTOFFSET_KEYPATH options:NSKeyValueObservingOptionInitial context:nil];
     }
     return self;
 }
@@ -88,7 +85,7 @@ const NSString *KVOContext;
 
 #pragma mark - KVO
 - (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context {
-    if (context == &KVOContext && [keyPath isEqualToString:CONTENTOFFSET_KEYPATH]) {
+    if ([keyPath isEqualToString:CONTENTOFFSET_KEYPATH]) {
         if ([object isKindOfClass:[UIScrollView class]]) {
             [self scrollViewDidScroll];
         }

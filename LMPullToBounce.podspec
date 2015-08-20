@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "LMPullToBounce"
-  s.version      = "0.0.1"
+  s.version      = “1.0.1”
   s.summary      = "The Objective-C version of PullToBounce. Supports iOS 7.0+."
   s.description  = <<-DESC
                    An elegant “pull to refresh” animation, written in Objective-C, 

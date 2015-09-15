@@ -65,7 +65,7 @@
 }
 
 - (void)dealloc {
-    [self removeObserver:self forKeyPath:CONTENTOFFSET_KEYPATH];
+    [self.scrollView removeObserver:self forKeyPath:CONTENTOFFSET_KEYPATH];
 }
 
 #pragma mark - Public

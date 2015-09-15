@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4860F7FB1BA83FBC008BEF70 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4860F7FA1BA83FBC008BEF70 /* DetailViewController.m */; };
 		7DF17C0D1B84B54D00DD3F33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF17C0C1B84B54D00DD3F33 /* main.m */; };
 		7DF17C101B84B54D00DD3F33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF17C0F1B84B54D00DD3F33 /* AppDelegate.m */; };
 		7DF17C131B84B54D00DD3F33 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF17C121B84B54D00DD3F33 /* ViewController.m */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4860F7F91BA83FBC008BEF70 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		4860F7FA1BA83FBC008BEF70 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		7DF17C071B84B54D00DD3F33 /* LMPullToBounceDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LMPullToBounceDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DF17C0B1B84B54D00DD3F33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DF17C0C1B84B54D00DD3F33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -111,6 +114,8 @@
 				7DF17C171B84B54D00DD3F33 /* Images.xcassets */,
 				7DF17C191B84B54D00DD3F33 /* LaunchScreen.xib */,
 				7DF17C0A1B84B54D00DD3F33 /* Supporting Files */,
+				4860F7F91BA83FBC008BEF70 /* DetailViewController.h */,
+				4860F7FA1BA83FBC008BEF70 /* DetailViewController.m */,
 			);
 			path = LMPullToBounceDemo;
 			sourceTree = "<group>";
@@ -277,6 +282,7 @@
 				7DF17C101B84B54D00DD3F33 /* AppDelegate.m in Sources */,
 				7DF17C5A1B84B5DD00DD3F33 /* UIView+PullToBounce.m in Sources */,
 				7DF17C591B84B5DD00DD3F33 /* NSTimer+PullToBounce.m in Sources */,
+				4860F7FB1BA83FBC008BEF70 /* DetailViewController.m in Sources */,
 				7DF17C581B84B5DD00DD3F33 /* BounceView.m in Sources */,
 				7DF17C0D1B84B54D00DD3F33 /* main.m in Sources */,
 				7DF17C571B84B5DD00DD3F33 /* BallView.m in Sources */,

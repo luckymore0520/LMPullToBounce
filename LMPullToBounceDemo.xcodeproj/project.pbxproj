@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1207D31B1D7ABC0100DFF2DB /* CircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1207D31A1D7ABC0100DFF2DB /* CircleLayer.m */; };
+		1207D31E1D7ABC5300DFF2DB /* SpinnerLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1207D31D1D7ABC5300DFF2DB /* SpinnerLayer.m */; };
 		4860F7FB1BA83FBC008BEF70 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4860F7FA1BA83FBC008BEF70 /* DetailViewController.m */; };
 		7DF17C0D1B84B54D00DD3F33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF17C0C1B84B54D00DD3F33 /* main.m */; };
 		7DF17C101B84B54D00DD3F33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF17C0F1B84B54D00DD3F33 /* AppDelegate.m */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1207D3191D7ABC0100DFF2DB /* CircleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleLayer.h; sourceTree = "<group>"; };
+		1207D31A1D7ABC0100DFF2DB /* CircleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleLayer.m; sourceTree = "<group>"; };
+		1207D31C1D7ABC5300DFF2DB /* SpinnerLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpinnerLayer.h; sourceTree = "<group>"; };
+		1207D31D1D7ABC5300DFF2DB /* SpinnerLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpinnerLayer.m; sourceTree = "<group>"; };
 		4860F7F91BA83FBC008BEF70 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		4860F7FA1BA83FBC008BEF70 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		7DF17C071B84B54D00DD3F33 /* LMPullToBounceDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LMPullToBounceDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -149,6 +155,10 @@
 		7DF17C471B84B5DD00DD3F33 /* LMPullToBounce */ = {
 			isa = PBXGroup;
 			children = (
+				1207D31C1D7ABC5300DFF2DB /* SpinnerLayer.h */,
+				1207D31D1D7ABC5300DFF2DB /* SpinnerLayer.m */,
+				1207D3191D7ABC0100DFF2DB /* CircleLayer.h */,
+				1207D31A1D7ABC0100DFF2DB /* CircleLayer.m */,
 				7DF17C481B84B5DD00DD3F33 /* BallView.h */,
 				7DF17C491B84B5DD00DD3F33 /* BallView.m */,
 				7DF17C4A1B84B5DD00DD3F33 /* BounceView.h */,
@@ -277,7 +287,9 @@
 			files = (
 				7DF17C5B1B84B5DD00DD3F33 /* LMPullToBounceWrapper.m in Sources */,
 				7DF17C5D1B84B5DD00DD3F33 /* WaveView.m in Sources */,
+				1207D31E1D7ABC5300DFF2DB /* SpinnerLayer.m in Sources */,
 				7DF17C131B84B54D00DD3F33 /* ViewController.m in Sources */,
+				1207D31B1D7ABC0100DFF2DB /* CircleLayer.m in Sources */,
 				7DF17C5C1B84B5DD00DD3F33 /* SampleTableViewCell.m in Sources */,
 				7DF17C101B84B54D00DD3F33 /* AppDelegate.m in Sources */,
 				7DF17C5A1B84B5DD00DD3F33 /* UIView+PullToBounce.m in Sources */,

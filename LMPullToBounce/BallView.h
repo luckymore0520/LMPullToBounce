@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#define WS(weakSelf)  __weak __typeof(&*self)weakSelf = self;
+#import "CircleLayer.h"
 
-typedef void (^AnimationCompletion)();
 @interface BallView : UIView
 - (instancetype) initWithFrame:(CGRect) frame
                     circleSize:(CGFloat)circleSize
